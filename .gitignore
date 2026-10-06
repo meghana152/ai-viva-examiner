@@ -1,0 +1,26 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Explicitly ensure model deployment artifacts and datasets are tracked:
+!data/
+!model/viva_bilstm.keras
+!model/tokenizer.json
